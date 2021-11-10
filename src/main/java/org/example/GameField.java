@@ -8,7 +8,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.Random;
 
-public class gameField extends JPanel implements ActionListener{
+public class GameField extends JPanel implements ActionListener{
     private final int SIZE = 320;
     private final int BLOCK_SIZE = 16;
     private final int ALL_BLOCKS = 400;
@@ -27,7 +27,7 @@ public class gameField extends JPanel implements ActionListener{
     private boolean inGame = true;
 
 
-    public gameField(){
+    public GameField(){
         setBackground(Color.darkGray);
         loadImages();
         initGame();
